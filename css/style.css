@@ -1,0 +1,80 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:focus, *:active  {
+    outline:0; /*removes the dotted border*/
+    /*noFocusLine: expression(this.onFocus=this.blur());*/
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background: #EEEEEE;
+}
+
+#wrapper {
+	width: 750px;
+	margin: 0px auto;
+}
+
+#content {
+	padding: 20px;
+}
+
+article {
+	background: #F9F9F9;
+	border: 1px solid #CCCCCC;
+	padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p, b {
+	font-family: sans-serif;
+	color: #454545;
+}
+
+h1 {
+	font-size: 160%;
+	text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img {
+	width: 75%;
+	border: 0px none;
+}
+
+#image-gallery {
+	border: 1px solid #CCCCCC;
+	background: #EEEEEE;
+	list-style-type: none;
+	padding: 20px;
+}
+
+#image-gallery li {
+    display: inline-block;
+    margin: 0 3px;
+    padding: 5px;
+}
+
+#image-gallery img {
+    border: 2px solid #a52a2a;
+    height: 75px;
+    width: 105px;
+}
+
+a {
+	color: #a52a2a;
+}
